@@ -1,0 +1,151 @@
+{
+  "menu": [
+    {
+      "kategori": "Sarapan Pagi",
+      "nama": "Egg and Cheese Muffin",
+      "deskripsi": "Perpaduan scrambled egg dan keju gurih dalam setangkup English Muffin hangat. Tersedia dari jam 5-11 pagi.",
+      "harga": "50k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/9FcgMqqWSFYjE6edaOAL.png"
+    },
+    {
+      "kategori": "Sarapan Pagi",
+      "nama": "Chicken Muffin",
+      "deskripsi": "Setangkup English muffin hangat dilapis saus mayonais dengan daging ayam olahan yang digoreng dengan sempurna. Tersedia dari jam 5-11 pagi.",
+      "harga": "55k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/AZa7XBfA0ADkUbSdnQOW.png"
+    },
+    {
+      "kategori": "Sarapan Pagi",
+      "nama": "Big Breakfast",
+      "deskripsi": "Perpaduan English Muffin panggang yang disajikan dengan sosis ayam gurih, renyahnya Hashbrown serta lembutnya scrambled egg. Tersedia dari jam 5-11 pagi.",
+      "harga": "40k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2019/l8UZVpyERSD76zcQgWlq.png"
+    },
+    {
+      "kategori": "Daging Sapi",
+      "nama": "Double Big Mac®",
+      "deskripsi": "Burger Big Mac® ukuran lebih besar tambahan 2 patty (100% daging sapi)",
+      "harga": "60k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2022/J5YeFsAKzntn2Izslk0b.png"
+    },
+    {
+      "kategori": "Daging Sapi",
+      "nama": "Cheeseburger",
+      "deskripsi": "Roti burger, daging sapi, keju, saus tomat, acar, potongan bawang dan mustard.",
+      "harga": "50k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/uku5BjLSPYQswEWsXVFV.png"
+    },
+    {
+      "kategori": "Daging Sapi",
+      "nama": "Beef Burger Deluxe",
+      "deskripsi": "Burger dengan 100% daging sapi Australia dengan selada segar, tomat, acar timun, potongan bawang bombai dan mustard.",
+      "harga": "50k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2020/NUfkX3XBlwCVguapu681.png"
+    },
+    {
+      "kategori": "Ayam",
+      "nama": "PaNas Spesial Ayam McD Kimchi",
+      "deskripsi": "Ayam McD yang disajikan dengan saus Kimchi dari Sawi Segar. Lengkap dengan Nasi, lembutnya scramble egg dan Apple Fizz yang menyegarkan. Tersedia pilihan Krispy/Spicy",
+      "harga": "60k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/5thZctvOWtMg2dVjrReA.png"
+    },
+    {
+      "kategori": "Ayam",
+      "nama": "PaNas 1",
+      "deskripsi": "Ayam Goreng khas McDonald's dengan nasi hangat dan minuman FruitTea lemon yang menyegarkan. Tersedia dalam pilihan Ayam Krispy atau Spicy",
+      "harga": "45k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/QhZI0YBTJ3VLWbAqcdIK.png"
+    },
+    {
+      "kategori": "Ayam",
+      "nama": "Chicken Burger Deluxe",
+      "deskripsi": "Burger ayam renyah yang disajikan dengan irisan selada segar dan tomat.",
+      "harga": "35k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2020/8d2xhfpKHuHnJANcaMZ7.png"
+    },
+    {
+      "kategori": "Ikan",
+      "nama": "Fish Snack Wrap",
+      "deskripsi": "Daging ikan digoreng renyah dengan selada segar, keju istimewa dan saus spesial dalam balutan tortilla yang lembut.",
+      "harga": "35k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/G7cFrY0RwlLIJXAYGhMq.png"
+    },
+    {
+      "kategori": "Ikan",
+      "nama": "Fish Fillet Burger",
+      "deskripsi": "Daging ikan pilihan, dengan saus tartar dan keju istimewa dalam setangkup roti lembut kukus.",
+      "harga": "40k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/BFcnGCUwrw4CxkxDkahi.png"
+    },
+    {
+      "kategori": "Ikan",
+      "nama": "Honey Garlic Fish Rice McD",
+      "deskripsi": "Nasi hangat dengan topping daging ikan disajikan dengan saus honey garlic.",
+      "harga": "50k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2020/aeXjsnlSHRqBxFdFOLZ0.png"
+    },
+    {
+      "kategori": "Minuman",
+      "nama": "Apple Fizz",
+      "deskripsi": "NMinuman Bersoda dengan rasa aple yang manis menyegarkan.",
+      "harga": "10k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/PR9LTm017Im54PLWGqHn.png"
+    },
+    {
+      "kategori": "Minuman",
+      "nama": "McFreeze Blueberry",
+      "deskripsi": "Minuman berkarbonasi berupa bulir es halus dengan rasa Fanta Blueberry.",
+      "harga": "12k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/VOAZOrzweXeLi0oSM3sQ.png"
+    },
+    {
+      "kategori": "Minuman",
+      "nama": "Mineral Water Prim-a",
+      "deskripsi": "Air Mineral kemasan Prim-A yang segar dan higienis.",
+      "harga": "7k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/QtyJ4HRDfdF07TI8VuBr.png"
+    },
+    {
+      "kategori": "Makanan Penutup",
+      "nama": "Choco Marshmallow Pie",
+      "deskripsi": "Lembutnya Marshmallow serta Cokelat dalam Pie hangat dan renyah.",
+      "harga": "8k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/GkrXmO3HMKX6fnwHVCuq.png"
+    },
+    {
+      "kategori": "Makanan Penutup",
+      "nama": "Dark Choco McFlurry with OREO",
+      "deskripsi": "Soft ice cream Vanilla McDonald's dengan cita rasa cokelat pekat, dengan topping OREO.",
+      "harga": "10k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/ivzUXnIL9jpMFe8WTImQ.png"
+    },
+    {
+      "kategori": "Makanan Penutup",
+      "nama": "Apple Pie",
+      "deskripsi": "Pastry renyah berisi potongan buah apel dan bumbu kayu manis memberikan cita rasa manis, juicy, lembut dan gurih.",
+      "harga": "7k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2021/ES5gKshzZmw2LRK9n8ee.png"
+    },
+    {
+      "kategori": "Happy Meal",
+      "nama": "Happy Meal Egg & Cheese Muffin",
+      "deskripsi": "Menu seimbang khusus di pagi hari, untuk Si Kecil dengan Egg & Cheese Muffin, Jagung, Susu UHT dan hadiah mainan atau buku.",
+      "harga": "70k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/November2020/ergNsgyxUnahL3DQ3RzP.png"
+    },
+    {
+      "kategori": "Happy Meal",
+      "nama": "Happy Meal Chicken Burger",
+      "deskripsi": "Menu seimbang untuk Si Kecil dengan Chicken Burger, Jagung, Susu UHT, dan hadiah mainan atau buku.",
+      "harga": "65k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/November2020/k4EuqeQ6rpeDANEYevqW.png"
+    },
+    {
+      "kategori": "Happy Meal",
+      "nama": "Happy Meal Ayam McD",
+      "deskripsi": "Menu seimbang untuk Si Kecil dengan Ayam goreng McD, Nasi hangat, Susu UHT dan hadiah mainan atau buku.",
+      "harga": "75k",
+      "gambar": "https://nos.jkt-1.neo.id/mcdonalds/foods/November2020/cEBOioihY1Ps4oMcC8cq.png"
+    }
+  ]
+}
