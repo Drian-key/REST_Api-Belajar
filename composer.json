@@ -1,0 +1,17 @@
+{
+  "name": "test/composer",
+  "description": "d",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Drian-key",
+      "email": "riskidrian1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DrianTcho\\": "src"
+    }
+  },
+  "require": {}
+}
