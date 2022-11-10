@@ -1,7 +1,7 @@
 function searchMovie() {
   $("#moviesList").html("");
   $.ajax({
-    url: "http://www.omdbapi.com/",
+    url: "https://www.omdbapi.com/",
     type: "get",
     dataType: "json",
     data: {
@@ -55,7 +55,7 @@ $("#searchInput").on("keyup", function (event) {
 
 $("#moviesList").on("click", ".seeDetail", function () {
   $.ajax({
-    url: "http://www.omdbapi.com/",
+    url: "https://www.omdbapi.com/",
     type: "get",
     dataType: "json",
     data: {
