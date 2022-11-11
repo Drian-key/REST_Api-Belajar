@@ -7,3 +7,7 @@ JSON = Javascript Object Notation
 API = Application Programming Interface
 REST = Representational State Transfer
 RESTful API / REST API merupakan penerapan dari API (Application Programming Interface).
+
+https://developers.google.com/youtube/v3/docs/channels
+
+vid 6 22.58
