@@ -1,3 +1,33 @@
+<?php
+$key = 'Your api token key';
+$channelId = 'Your channel id';
+
+function get_curl($url){
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($curl);
+    curl_close($curl);
+
+    return json_decode($result, true);
+}
+
+$urlTSV = 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id='. $channelId .'&key='. $key;
+$result = get_curl($urlTSV);
+
+$youtubeProfilePic = $result['items'][0]['snippet']['thumbnails']['high']['url'];
+$youtubeTitle = $result["items"][0]["snippet"]['title'];
+$youtubeSubs = $result["items"][0]["statistics"]["subscriberCount"];
+$youtubeViews = $result["items"][0]["statistics"]["viewCount"];
+
+// Latest Video
+$urlV = 'https://www.googleapis.com/youtube/v3/search?key='. $key .'&channelId='. $channelId .'&maxResults=1&order=date&part=snippet';
+$urlLatest = get_curl($urlV);
+
+$latestVideoId = $urlLatest['items'][0]['id']['videoId'];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,18 +65,21 @@
             <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="../img/profile.png" width="200" class="rounded-circle img-thumbnail">
+                        <img src="<?= $youtubeProfilePic ?>" width="200" class="rounded-circle img-thumbnail">
                     </div>
                     <div class="col-md-8">
-                        <h5>Drian Tcho</h5>
-                        <p>1000000 Subscribers.</p>
+                        <h5><?= $youtubeTitle ?></h5>
+                        <p><?= $youtubeSubs ?> Subscribers</p>
+                        <p><?= $youtubeViews ?> Views</p>
+
+                        <div class="g-ytsubscribe" data-channelid="UCdhq4Zb1s_HiHET_33GTtXA" data-layout="default" data-theme="dark" data-count="hidden"></div>
                     </div>
                 </div>
 
                 <div class="row mt-3 ">
                     <div class="col">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/<?= $latestVideoId ?>" title="YouTube video" allowfullscreen></iframe>
                     </div>
                     </div>
                 </div>
@@ -76,5 +109,7 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://apis.google.com/js/platform.js"></script>
 </body>
 </html>
